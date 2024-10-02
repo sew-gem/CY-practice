@@ -1,13 +1,64 @@
-.img-1{
+.img-1 {
     width: 625px;
     height: 687px;
     background: #C4C4C4;
+    display: flex;
+    display : flex;
+    align-item: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 23px;
 }
 
-.b1{
+.b1 {
     width: 180px;
     height: 126px;
     background: #EB5757;
-    display: flex;
-    
+}
+
+.b2 {
+    width: 234px;
+    height: 126px;
+    background: #219653;
+
+}
+
+.b3 {
+    width: 123px;
+    height: 126px;
+    background: #F2994A;
+}
+
+.b4 {
+    width: 234px;
+    height: 126px;
+    background: #BB6BD9;
+}
+
+.b5 {
+    width: 321px; 
+    height: 126px;
+    background: #219653;
+}
+
+.b6 {
+    width: 587px; 
+    height: 126px;
+    background: #219653;  
+}
+
+.b7 {
+    width: 180px; 
+    height: 138px;  
+    background: #56CCF2;
+}
+
+.b8 {
+    width: 180px; 
+    height: 138px;  
+    background: #F2C94C;
+}
+
+.img-2 {
+
 }

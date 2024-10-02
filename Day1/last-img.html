@@ -16,30 +16,24 @@
             box-sizing: border-box;
             padding: 40px;
         }
-        .username{
+        
+        .input{
             width: 195px;
             height: 41px;
             border: 1px solid white;
             color: white;
+            background-color: transparent;
             border-radius: 5px;
             margin-bottom: 10px;
             font-size: 12px;
             display: flex;
             justify-content: center; 
             align-items: center;
+            &::placeholder {
+                color: #fff;
+            }   
         }
-        .password{
-            width: 195px;
-            height: 41px;
-            border: 1px solid white;
-            color: white;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            font-size: 12px;
-            display: flex;
-            justify-content: center; 
-            align-items: center;
-        }
+
         #btn{
             width: 195px;
             height: 41px;
@@ -67,8 +61,8 @@
 <body>
     <div class="container">
         <img src="image.png" alt="logo">
-        <div class="username">USERNAME</div>
-        <div class="password">PASSWORD</div>
+        <input type="text" class="input" placeholder="USERNAME">
+        <input type="text" class="input" placeholder="PASSWORD">
         <button id="btn">Login</button>
         <text>Forgot password?</text>
     </div>

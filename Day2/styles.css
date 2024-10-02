@@ -1,13 +1,21 @@
+.container {
+    margin: 20px;;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
 .img-1 {
     width: 625px;
     height: 687px;
     background: #C4C4C4;
-    display: flex;
     display : flex;
     align-item: center;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 23px;
+    margin: 20px;
 }
 
 .b1 {
@@ -60,5 +68,13 @@
 }
 
 .img-2 {
-
+    width: 180px;
+    height: 188px;
+    margin: 20px;
+}
+.box {
+    width: 85px;
+    height: 85px;
+    background: #F2994A;
+    
 }

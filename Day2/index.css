@@ -296,12 +296,18 @@ form {
     font-family: inter;
 }
 
+.check{
+    display: flex;
+    margin: 10px 0;
+}
+
 label {
     margin-bottom: 5px;
 }
 
 label[for="check-box"] {
   margin-left: 5px; 
+
 }
 
 button[type="submit"] {

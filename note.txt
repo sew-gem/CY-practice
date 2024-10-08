@@ -1,0 +1,22 @@
+git clone repo-url   //clone remote repo
+
+cd Exercise-day5   //navigate to clone repo
+git branch Exercise-day5    //create new branch
+
+git checkout  Exercise-day5   //switch to new branch
+
+git add .
+git commit -m "message"
+git push origin  Exercise-day5
+
+
+// set up for SCSS
+npm init  //install package.json
+npm install node-sass   //install node-sass
+
+//add this to package.json file
+"scripts": {
+  "sass": "node-sass styles/sass/main.scss styles/css/style.css -w"
+}
+
+npm run sass    //make any changes of SCSS files will be automatically compiled to CSS.
